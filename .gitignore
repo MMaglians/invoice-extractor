@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+## Risultati delle valutazioni (si rigenerano con eval_extractor.py)
+results/

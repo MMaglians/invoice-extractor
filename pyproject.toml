@@ -1,0 +1,18 @@
+[project]
+name = "invoice-extractor"
+version = "0.1.0"
+description = "Structured invoice extraction from free text with Gemini and Pydantic, with a measured evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "google-genai>=2.3.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
