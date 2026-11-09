@@ -45,7 +45,7 @@ Results (gemini-3.5-flash-lite, temperature 0, one run):
 | v1 | yes | hard | 39/40 | 0.87–1.00 | 411 / 254 |
 | v2 | yes | hard | 40/40 | 0.91–1.00 | 1089 / 252 |
 | v1 | no | hard | 38/40 | 0.83–0.99 | 411 / 255 |
-| v2 | no | hard | 40/40 | 0.91–1.00 | 1089/ 247 |
+| v2 | no | hard | 40/40 | 0.91–1.00 | 1089 / 247 |
 
 v2 scores 40/40 perfect records in both configurations; v1 scores 39/40 with schema descriptions and 38/40 without. The differences between the prompts are not statistically detectable (exact sign test: p = 1.0 with descriptions, p = 0.5 without). All three observed failures are the same error: a due date invented when the invoice has none and other dates are present. v1 made it in 3 of 80 evaluations, v2 in none, at about 2.6x the input tokens. Removing the schema descriptions made no measurable difference in this setup.
 
