@@ -1,6 +1,6 @@
 [project]
 name = "invoice-extractor"
-version = "0.1.0"
+version = "0.1.1"
 description = "Structured invoice extraction from free text with Gemini and Pydantic, with a measured evaluation"
 readme = "README.md"
 requires-python = ">=3.10"
